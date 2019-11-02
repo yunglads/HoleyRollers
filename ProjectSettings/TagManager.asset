@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - Boundary
+  - World
+  - +1 Box
+  - -1 Box
   layers:
   - Default
   - TransparentFX

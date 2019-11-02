@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Vehicles.Ball
 {
@@ -13,25 +14,30 @@ namespace UnityStandardAssets.Vehicles.Ball
         private const float k_GroundRayLength = 1f; // The length of the ray to check if the ball is grounded.
         private Rigidbody m_Rigidbody;
 
-        public float waitTime;
-
+        private float waitTime;
         private Vector3 ballPosition;
-        //public bool onFloor;
-        public bool playerDead = false;
+        private bool playerDead = false;
+        public bool canLeap;
 
+        public int leapCount;
+        public Text leapText;
 
-        private void Start()
+        void Start()
         {
             m_Rigidbody = GetComponent<Rigidbody>();
             // Set the maximum angular velocity.
             GetComponent<Rigidbody>().maxAngularVelocity = m_MaxAngularVelocity;
+
+            canLeap = true;
         }
 
         void Update()
         {
             ballPosition = new Vector3(0f, 1f, transform.position.z);
 
-            if(playerDead == true)
+            leapText.text = "Leaps: " + leapCount;
+
+            if (playerDead == true)
             {
                 waitTime += Time.deltaTime;
             }
@@ -41,6 +47,16 @@ namespace UnityStandardAssets.Vehicles.Ball
                 playerDead = false;
                 waitTime = 0f;
                 m_Rigidbody.constraints = RigidbodyConstraints.None;
+            }
+
+            if (leapCount == 0)
+            {
+                waitTime += Time.deltaTime;
+            }
+
+            if (leapCount == 0 && waitTime >= 2f)
+            {
+                canLeap = false;
             }
         }
 
@@ -59,7 +75,7 @@ namespace UnityStandardAssets.Vehicles.Ball
             }
 
             // If on the ground and jump is pressed...
-            if (Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength) && jump)
+            if (Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength) && jump && canLeap)
             {
                 // ... add force in upwards.
                 m_Rigidbody.AddForce(Vector3.up*m_JumpPower, ForceMode.Impulse);
@@ -73,6 +89,34 @@ namespace UnityStandardAssets.Vehicles.Ball
                 playerDead = true;
                 transform.position = ballPosition;
                 m_Rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+            }
+
+            if (other.tag == "+1 Box")
+            {
+                leapCount++;
+                Debug.Log("Worked!");
+            }
+
+            if (other.tag == "-1 Box")
+            {
+                leapCount--;
+                Debug.Log("Worked!");
+            }
+        }
+
+        void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == "World")
+            {
+                canLeap = true;
+            }
+        }
+
+        void OnCollisionExit(Collision collision)
+        {
+            if (collision.gameObject.tag == "World")
+            {
+                leapCount--;
             }
         }
     }
