@@ -6,16 +6,17 @@ namespace UnityStandardAssets.Vehicles.Ball
 {
     public class Ball : MonoBehaviour
     {
-        [SerializeField] private float m_MovePower = 5; // The force added to the ball to move it.
+        [SerializeField] public float m_MovePower = 5; // The force added to the ball to move it.
         [SerializeField] private bool m_UseTorque = true; // Whether or not to use torque to move the ball.
         [SerializeField] private float m_MaxAngularVelocity = 25; // The maximum velocity the ball can rotate at.
         [SerializeField] private float m_JumpPower = 2; // The force added to the ball when it jumps.
+        [SerializeField] private float m_wallJumpPower = 3f;
 
         private const float k_GroundRayLength = 1f; // The length of the ray to check if the ball is grounded.
         private Rigidbody m_Rigidbody;
 
         private float waitTime;
-        private Vector3 ballPosition;
+        public Vector3 ballPosition;
         private bool playerDead = false;
         public bool canLeap;
 
@@ -29,11 +30,14 @@ namespace UnityStandardAssets.Vehicles.Ball
             GetComponent<Rigidbody>().maxAngularVelocity = m_MaxAngularVelocity;
 
             canLeap = true;
+
+            ballPosition = new Vector3(0, 1, 0);
         }
+
 
         void Update()
         {
-            ballPosition = new Vector3(0f, 1f, transform.position.z);
+            //ballPosition = new Vector3(0f, 1f, transform.position.z - 20f);
 
             leapText.text = "Leaps: " + leapCount;
 
@@ -42,7 +46,7 @@ namespace UnityStandardAssets.Vehicles.Ball
                 waitTime += Time.deltaTime;
             }
 
-            if (waitTime >= 5f)
+            if (waitTime >= 3f)
             {
                 playerDead = false;
                 waitTime = 0f;
@@ -54,9 +58,14 @@ namespace UnityStandardAssets.Vehicles.Ball
                 waitTime += Time.deltaTime;
             }
 
-            if (leapCount == 0 && waitTime >= 2f)
+            if (leapCount <= 0 && waitTime >= 2f)
             {
                 canLeap = false;
+            }
+
+            if (leapCount <= -1)
+            {
+                leapCount = 0;
             }
         }
 
@@ -78,7 +87,19 @@ namespace UnityStandardAssets.Vehicles.Ball
             if (Physics.Raycast(transform.position, -Vector3.up, k_GroundRayLength) && jump && canLeap)
             {
                 // ... add force in upwards.
-                m_Rigidbody.AddForce(Vector3.up*m_JumpPower, ForceMode.Impulse);
+                m_Rigidbody.AddForce(Vector3.up * m_JumpPower, ForceMode.Impulse);
+            }
+
+            if (Physics.Raycast(transform.position, Vector3.right, k_GroundRayLength) && jump && canLeap)
+            {
+                m_Rigidbody.AddForce(Vector3.up * m_wallJumpPower, ForceMode.Impulse);
+                m_Rigidbody.AddForce(-Vector3.right * m_wallJumpPower, ForceMode.Impulse);
+            }
+
+            if (Physics.Raycast(transform.position, -Vector3.right, k_GroundRayLength) && jump && canLeap)
+            {
+                m_Rigidbody.AddForce(Vector3.up * m_wallJumpPower, ForceMode.Impulse);
+                m_Rigidbody.AddForce(Vector3.right * m_wallJumpPower, ForceMode.Impulse);
             }
         }
 
@@ -87,6 +108,7 @@ namespace UnityStandardAssets.Vehicles.Ball
             if(other.tag == "Boundary")
             {
                 playerDead = true;
+                leapCount++;
                 transform.position = ballPosition;
                 m_Rigidbody.constraints = RigidbodyConstraints.FreezeAll;
             }
@@ -94,13 +116,13 @@ namespace UnityStandardAssets.Vehicles.Ball
             if (other.tag == "+1 Box")
             {
                 leapCount++;
-                Debug.Log("Worked!");
+                //Debug.Log("Worked!");
             }
 
             if (other.tag == "-1 Box")
             {
                 leapCount--;
-                Debug.Log("Worked!");
+                //Debug.Log("Worked!");
             }
         }
 

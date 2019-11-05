@@ -9,6 +9,7 @@ TagManager:
   - World
   - +1 Box
   - -1 Box
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
