@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SmashBox : MonoBehaviour
 {
-    public float waitTime;
+    private float waitTime;
 
     Animator anim;
 

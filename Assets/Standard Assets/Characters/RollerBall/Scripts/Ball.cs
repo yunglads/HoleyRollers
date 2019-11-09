@@ -15,7 +15,8 @@ namespace UnityStandardAssets.Vehicles.Ball
         private const float k_GroundRayLength = 1f; // The length of the ray to check if the ball is grounded.
         private Rigidbody m_Rigidbody;
 
-        private float waitTime;
+        public float waitTime;
+        public float jumpWaitTime;
         public Vector3 ballPosition;
         public bool playerDead = false;
         public bool canLeap;
@@ -56,12 +57,13 @@ namespace UnityStandardAssets.Vehicles.Ball
 
             if (leapCount == 0)
             {
-                waitTime += Time.deltaTime;
+                jumpWaitTime += Time.deltaTime;
             }
 
-            if (leapCount <= 0 && waitTime >= 1f)
+            if (leapCount <= 0 && jumpWaitTime >= 1f)
             {
                 canLeap = false;
+                jumpWaitTime = 0f;
             }
             else if (leapCount >= 1)
             {
@@ -129,11 +131,13 @@ namespace UnityStandardAssets.Vehicles.Ball
                 leapCount++;
                 transform.position = ballPosition;
                 m_Rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+                jumpWaitTime = 0f;
             }
 
             if (other.tag == "+1 Box")
             {
                 leapCount++;
+                jumpWaitTime = 0f;
                 //Debug.Log("Worked!");
             }
 
