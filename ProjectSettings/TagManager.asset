@@ -10,6 +10,8 @@ TagManager:
   - +1 Box
   - -1 Box
   - Checkpoint
+  - Smash Box
+  - Ramp
   layers:
   - Default
   - TransparentFX

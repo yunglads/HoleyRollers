@@ -5,3 +5,8 @@ Assembly-CSharp.csproj
 .vs/
 obj/
 ProjectSettings/
+Unity.Recorder.csproj
+Unity.Recorder.Editor.csproj
+Unity.Recorder.Samples.csproj
+Assets/Prefabs/Simple Checkpoint.prefab
+Assets/Prefabs/Simple Checkpoint.prefab.meta

@@ -17,8 +17,9 @@ namespace UnityStandardAssets.Vehicles.Ball
 
         private float waitTime;
         public Vector3 ballPosition;
-        private bool playerDead = false;
+        public bool playerDead = false;
         public bool canLeap;
+        //public bool isJumping = false;
 
         public int leapCount;
         public Text leapText;
@@ -58,16 +59,30 @@ namespace UnityStandardAssets.Vehicles.Ball
                 waitTime += Time.deltaTime;
             }
 
-            if (leapCount <= 0 && waitTime >= 2f)
+            if (leapCount <= 0 && waitTime >= 1f)
             {
                 canLeap = false;
+            }
+            else if (leapCount >= 1)
+            {
+                canLeap = true;
             }
 
             if (leapCount <= -1)
             {
                 leapCount = 0;
             }
-        }
+
+            /*if (Input.GetKeyDown(KeyCode.Space))
+            {
+                waitTime += Time.fixedDeltaTime;
+                if (waitTime >= 1f)
+                {
+                    isJumping = true;
+                    waitTime = 0f;
+                }
+            }*/
+        }      
 
         public void Move(Vector3 moveDirection, bool jump)
         {
@@ -88,18 +103,21 @@ namespace UnityStandardAssets.Vehicles.Ball
             {
                 // ... add force in upwards.
                 m_Rigidbody.AddForce(Vector3.up * m_JumpPower, ForceMode.Impulse);
+                //leapCount--;
             }
 
             if (Physics.Raycast(transform.position, Vector3.right, k_GroundRayLength) && jump && canLeap)
             {
                 m_Rigidbody.AddForce(Vector3.up * m_wallJumpPower, ForceMode.Impulse);
                 m_Rigidbody.AddForce(-Vector3.right * m_wallJumpPower, ForceMode.Impulse);
+                //leapCount--;
             }
 
             if (Physics.Raycast(transform.position, -Vector3.right, k_GroundRayLength) && jump && canLeap)
             {
                 m_Rigidbody.AddForce(Vector3.up * m_wallJumpPower, ForceMode.Impulse);
                 m_Rigidbody.AddForce(Vector3.right * m_wallJumpPower, ForceMode.Impulse);
+                //leapCount--;
             }
         }
 
@@ -124,6 +142,11 @@ namespace UnityStandardAssets.Vehicles.Ball
                 leapCount--;
                 //Debug.Log("Worked!");
             }
+
+            if (other.tag == "Smash Box")
+            {
+                playerDead = true;
+            }
         }
 
         void OnCollisionEnter(Collision collision)
@@ -131,6 +154,12 @@ namespace UnityStandardAssets.Vehicles.Ball
             if (collision.gameObject.tag == "World")
             {
                 canLeap = true;
+                //isJumping = false;
+            }
+
+            if (collision.gameObject.tag == "Ramp")
+            {
+                leapCount++;
             }
         }
 

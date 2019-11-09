@@ -637,10 +637,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: dc680055-6f1f-4e7d-abbc-a55f47222991
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Leaps N Bounds
+  organizationId: yunglads
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
