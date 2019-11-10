@@ -12,11 +12,12 @@ namespace UnityStandardAssets.Vehicles.Ball
         [SerializeField] private float m_JumpPower = 2; // The force added to the ball when it jumps.
         [SerializeField] private float m_wallJumpPower = 3f;
 
+        private const float k_wallRayLength = .75f;
         private const float k_GroundRayLength = 1f; // The length of the ray to check if the ball is grounded.
         private Rigidbody m_Rigidbody;
 
-        public float waitTime;
-        public float jumpWaitTime;
+        private float waitTime;
+        private float jumpWaitTime;
         public Vector3 ballPosition;
         public bool playerDead = false;
         public bool canLeap;
@@ -108,14 +109,14 @@ namespace UnityStandardAssets.Vehicles.Ball
                 //leapCount--;
             }
 
-            if (Physics.Raycast(transform.position, Vector3.right, k_GroundRayLength) && jump && canLeap)
+            if (Physics.Raycast(transform.position, Vector3.right, k_wallRayLength) && jump && canLeap)
             {
                 m_Rigidbody.AddForce(Vector3.up * m_wallJumpPower, ForceMode.Impulse);
                 m_Rigidbody.AddForce(-Vector3.right * m_wallJumpPower, ForceMode.Impulse);
                 //leapCount--;
             }
 
-            if (Physics.Raycast(transform.position, -Vector3.right, k_GroundRayLength) && jump && canLeap)
+            if (Physics.Raycast(transform.position, -Vector3.right, k_wallRayLength) && jump && canLeap)
             {
                 m_Rigidbody.AddForce(Vector3.up * m_wallJumpPower, ForceMode.Impulse);
                 m_Rigidbody.AddForce(Vector3.right * m_wallJumpPower, ForceMode.Impulse);
@@ -145,11 +146,6 @@ namespace UnityStandardAssets.Vehicles.Ball
             {
                 leapCount--;
                 //Debug.Log("Worked!");
-            }
-
-            if (other.tag == "Smash Box")
-            {
-                playerDead = true;
             }
         }
 

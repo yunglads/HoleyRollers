@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3758029539298102221}
   - component: {fileID: 3758029539298102257}
   - component: {fileID: 3758029539298102256}
-  - component: {fileID: 3758029539298102223}
-  - component: {fileID: 3758029539298102222}
+  - component: {fileID: 1717023297}
+  - component: {fileID: 1717023296}
   m_Layer: 0
   m_Name: Checker - white (22)
   m_TagString: Untagged
@@ -79,7 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539298102223
+--- !u!65 &1717023297
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,27 +87,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539298102220}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539298102222
-Rigidbody:
+--- !u!114 &1717023296
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539298102220}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539335840326
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,8 +121,8 @@ GameObject:
   - component: {fileID: 3758029539335840327}
   - component: {fileID: 3758029539335840331}
   - component: {fileID: 3758029539335840330}
-  - component: {fileID: 3758029539335840329}
-  - component: {fileID: 3758029539335840328}
+  - component: {fileID: 2145520876}
+  - component: {fileID: 2145520875}
   m_Layer: 0
   m_Name: Checker - white (7)
   m_TagString: Untagged
@@ -187,7 +189,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539335840329
+--- !u!65 &2145520876
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,27 +197,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539335840326}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539335840328
-Rigidbody:
+--- !u!114 &2145520875
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539335840326}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539345154054
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,8 +231,8 @@ GameObject:
   - component: {fileID: 3758029539345154055}
   - component: {fileID: 3758029539345154059}
   - component: {fileID: 3758029539345154058}
-  - component: {fileID: 3758029539345154057}
-  - component: {fileID: 3758029539345154056}
+  - component: {fileID: 571579183}
+  - component: {fileID: 571579182}
   m_Layer: 0
   m_Name: Checker - black (10)
   m_TagString: Untagged
@@ -295,7 +299,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539345154057
+--- !u!65 &571579183
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,27 +307,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539345154054}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539345154056
-Rigidbody:
+--- !u!114 &571579182
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539345154054}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539349977282
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +341,8 @@ GameObject:
   - component: {fileID: 3758029539349977283}
   - component: {fileID: 3758029539349977287}
   - component: {fileID: 3758029539349977286}
-  - component: {fileID: 3758029539349977285}
-  - component: {fileID: 3758029539349977284}
+  - component: {fileID: 808703349}
+  - component: {fileID: 808703348}
   m_Layer: 0
   m_Name: Checker - black (1)
   m_TagString: Untagged
@@ -403,7 +409,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539349977285
+--- !u!65 &808703349
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -411,27 +417,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539349977282}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539349977284
-Rigidbody:
+--- !u!114 &808703348
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539349977282}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539357685962
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,8 +451,8 @@ GameObject:
   - component: {fileID: 3758029539357685963}
   - component: {fileID: 3758029539357685967}
   - component: {fileID: 3758029539357685966}
-  - component: {fileID: 3758029539357685965}
-  - component: {fileID: 3758029539357685964}
+  - component: {fileID: 1488044197}
+  - component: {fileID: 1488044196}
   m_Layer: 0
   m_Name: Checker - black (11)
   m_TagString: Untagged
@@ -511,7 +519,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539357685965
+--- !u!65 &1488044197
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -519,27 +527,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539357685962}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539357685964
-Rigidbody:
+--- !u!114 &1488044196
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539357685962}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539408282140
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,8 +561,8 @@ GameObject:
   - component: {fileID: 3758029539408282141}
   - component: {fileID: 3758029539408282113}
   - component: {fileID: 3758029539408282112}
-  - component: {fileID: 3758029539408282143}
-  - component: {fileID: 3758029539408282142}
+  - component: {fileID: 903030078}
+  - component: {fileID: 903030077}
   m_Layer: 0
   m_Name: Checker - white (18)
   m_TagString: Untagged
@@ -619,7 +629,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539408282143
+--- !u!65 &903030078
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -627,27 +637,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539408282140}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539408282142
-Rigidbody:
+--- !u!114 &903030077
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539408282140}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539411378188
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,8 +671,8 @@ GameObject:
   - component: {fileID: 3758029539411378189}
   - component: {fileID: 3758029539411378225}
   - component: {fileID: 3758029539411378224}
-  - component: {fileID: 3758029539411378191}
-  - component: {fileID: 3758029539411378190}
+  - component: {fileID: 217992320}
+  - component: {fileID: 217992319}
   m_Layer: 0
   m_Name: Checker - white (11)
   m_TagString: Untagged
@@ -727,7 +739,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539411378191
+--- !u!65 &217992320
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -735,27 +747,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539411378188}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539411378190
-Rigidbody:
+--- !u!114 &217992319
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539411378188}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539417127673
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,8 +781,8 @@ GameObject:
   - component: {fileID: 3758029539417127674}
   - component: {fileID: 3758029539417127678}
   - component: {fileID: 3758029539417127677}
-  - component: {fileID: 3758029539417127676}
-  - component: {fileID: 3758029539417127675}
+  - component: {fileID: 1182646032}
+  - component: {fileID: 1182646031}
   m_Layer: 0
   m_Name: Checker - white (23)
   m_TagString: Untagged
@@ -835,7 +849,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539417127676
+--- !u!65 &1182646032
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -843,27 +857,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539417127673}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539417127675
-Rigidbody:
+--- !u!114 &1182646031
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539417127673}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539521128981
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,8 +891,8 @@ GameObject:
   - component: {fileID: 3758029539521128982}
   - component: {fileID: 3758029539521128986}
   - component: {fileID: 3758029539521128985}
-  - component: {fileID: 3758029539521128984}
-  - component: {fileID: 3758029539521128983}
+  - component: {fileID: 688532575}
+  - component: {fileID: 688532574}
   m_Layer: 0
   m_Name: Checker - white (1)
   m_TagString: Untagged
@@ -943,7 +959,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539521128984
+--- !u!65 &688532575
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -951,27 +967,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539521128981}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539521128983
-Rigidbody:
+--- !u!114 &688532574
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539521128981}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539531055774
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,8 +1001,8 @@ GameObject:
   - component: {fileID: 3758029539531055775}
   - component: {fileID: 3758029539531055747}
   - component: {fileID: 3758029539531055746}
-  - component: {fileID: 3758029539531055745}
-  - component: {fileID: 3758029539531055744}
+  - component: {fileID: 1829188516}
+  - component: {fileID: 1829188515}
   m_Layer: 0
   m_Name: Checker - black (12)
   m_TagString: Untagged
@@ -1051,7 +1069,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539531055745
+--- !u!65 &1829188516
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1059,27 +1077,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539531055774}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539531055744
-Rigidbody:
+--- !u!114 &1829188515
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539531055774}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539633263725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,8 +1111,8 @@ GameObject:
   - component: {fileID: 3758029539633263726}
   - component: {fileID: 3758029539633263762}
   - component: {fileID: 3758029539633263761}
-  - component: {fileID: 3758029539633263760}
-  - component: {fileID: 3758029539633263727}
+  - component: {fileID: 1845864966}
+  - component: {fileID: 1845864965}
   m_Layer: 0
   m_Name: Checker - white (10)
   m_TagString: Untagged
@@ -1159,7 +1179,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539633263760
+--- !u!65 &1845864966
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1167,27 +1187,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539633263725}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539633263727
-Rigidbody:
+--- !u!114 &1845864965
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539633263725}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539656108447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,8 +1221,8 @@ GameObject:
   - component: {fileID: 3758029539656108416}
   - component: {fileID: 3758029539656108420}
   - component: {fileID: 3758029539656108419}
-  - component: {fileID: 3758029539656108418}
-  - component: {fileID: 3758029539656108417}
+  - component: {fileID: 1298185450}
+  - component: {fileID: 1298185449}
   m_Layer: 0
   m_Name: Checker - white (19)
   m_TagString: Untagged
@@ -1267,7 +1289,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539656108418
+--- !u!65 &1298185450
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1275,27 +1297,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539656108447}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539656108417
-Rigidbody:
+--- !u!114 &1298185449
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539656108447}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539670768040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,8 +1331,8 @@ GameObject:
   - component: {fileID: 3758029539670768041}
   - component: {fileID: 3758029539670768045}
   - component: {fileID: 3758029539670768044}
-  - component: {fileID: 3758029539670768043}
-  - component: {fileID: 3758029539670768042}
+  - component: {fileID: 1750668780}
+  - component: {fileID: 1750668779}
   m_Layer: 0
   m_Name: Checker - black (6)
   m_TagString: Untagged
@@ -1375,7 +1399,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539670768043
+--- !u!65 &1750668780
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1383,27 +1407,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539670768040}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539670768042
-Rigidbody:
+--- !u!114 &1750668779
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539670768040}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539716344116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,8 +1441,8 @@ GameObject:
   - component: {fileID: 3758029539716344117}
   - component: {fileID: 3758029539716344121}
   - component: {fileID: 3758029539716344120}
-  - component: {fileID: 3758029539716344119}
-  - component: {fileID: 3758029539716344118}
+  - component: {fileID: 792513926}
+  - component: {fileID: 792513925}
   m_Layer: 0
   m_Name: Checker - white (17)
   m_TagString: Untagged
@@ -1483,7 +1509,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539716344119
+--- !u!65 &792513926
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1491,27 +1517,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539716344116}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539716344118
-Rigidbody:
+--- !u!114 &792513925
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539716344116}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539717693203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,8 +1551,8 @@ GameObject:
   - component: {fileID: 3758029539717693204}
   - component: {fileID: 3758029539717693208}
   - component: {fileID: 3758029539717693207}
-  - component: {fileID: 3758029539717693206}
-  - component: {fileID: 3758029539717693205}
+  - component: {fileID: 1890212985}
+  - component: {fileID: 1890212984}
   m_Layer: 0
   m_Name: Checker - black (21)
   m_TagString: Untagged
@@ -1591,7 +1619,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539717693206
+--- !u!65 &1890212985
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1599,27 +1627,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539717693203}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539717693205
-Rigidbody:
+--- !u!114 &1890212984
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539717693203}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539804406085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,8 +1661,8 @@ GameObject:
   - component: {fileID: 3758029539804406086}
   - component: {fileID: 3758029539804406090}
   - component: {fileID: 3758029539804406089}
-  - component: {fileID: 3758029539804406088}
-  - component: {fileID: 3758029539804406087}
+  - component: {fileID: 1474490592}
+  - component: {fileID: 1474490591}
   m_Layer: 0
   m_Name: Checker - black (5)
   m_TagString: Untagged
@@ -1699,7 +1729,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029539804406088
+--- !u!65 &1474490592
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1707,27 +1737,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539804406085}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029539804406087
-Rigidbody:
+--- !u!114 &1474490591
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029539804406085}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540011496655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1739,8 +1771,8 @@ GameObject:
   - component: {fileID: 3758029540011496688}
   - component: {fileID: 3758029540011496692}
   - component: {fileID: 3758029540011496691}
-  - component: {fileID: 3758029540011496690}
-  - component: {fileID: 3758029540011496689}
+  - component: {fileID: 303041749}
+  - component: {fileID: 303041748}
   m_Layer: 0
   m_Name: Checker - black (18)
   m_TagString: Untagged
@@ -1807,7 +1839,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540011496690
+--- !u!65 &303041749
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1815,27 +1847,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540011496655}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540011496689
-Rigidbody:
+--- !u!114 &303041748
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540011496655}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540023914393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,8 +1881,8 @@ GameObject:
   - component: {fileID: 3758029540023914394}
   - component: {fileID: 3758029540023914398}
   - component: {fileID: 3758029540023914397}
-  - component: {fileID: 3758029540023914396}
-  - component: {fileID: 3758029540023914395}
+  - component: {fileID: 2021698086}
+  - component: {fileID: 2021698085}
   m_Layer: 0
   m_Name: Checker - white (14)
   m_TagString: Untagged
@@ -1915,7 +1949,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540023914396
+--- !u!65 &2021698086
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1923,27 +1957,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540023914393}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540023914395
-Rigidbody:
+--- !u!114 &2021698085
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540023914393}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540037309105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,8 +1991,8 @@ GameObject:
   - component: {fileID: 3758029540037309106}
   - component: {fileID: 3758029540037309110}
   - component: {fileID: 3758029540037309109}
-  - component: {fileID: 3758029540037309108}
-  - component: {fileID: 3758029540037309107}
+  - component: {fileID: 316424499}
+  - component: {fileID: 316424498}
   m_Layer: 0
   m_Name: Checker - black (20)
   m_TagString: Untagged
@@ -2023,7 +2059,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540037309108
+--- !u!65 &316424499
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2031,27 +2067,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540037309105}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540037309107
-Rigidbody:
+--- !u!114 &316424498
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540037309105}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540077169543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,8 +2181,8 @@ GameObject:
   - component: {fileID: 3758029540100270589}
   - component: {fileID: 3758029540100270561}
   - component: {fileID: 3758029540100270560}
-  - component: {fileID: 3758029540100270591}
-  - component: {fileID: 3758029540100270590}
+  - component: {fileID: 395239596}
+  - component: {fileID: 395239595}
   m_Layer: 0
   m_Name: Checker - black (22)
   m_TagString: Untagged
@@ -2211,7 +2249,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540100270591
+--- !u!65 &395239596
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2219,27 +2257,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540100270588}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540100270590
-Rigidbody:
+--- !u!114 &395239595
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540100270588}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540104909183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,8 +2291,8 @@ GameObject:
   - component: {fileID: 3758029540104909152}
   - component: {fileID: 3758029540104909156}
   - component: {fileID: 3758029540104909155}
-  - component: {fileID: 3758029540104909154}
-  - component: {fileID: 3758029540104909153}
+  - component: {fileID: 701357335}
+  - component: {fileID: 701357334}
   m_Layer: 0
   m_Name: Checker - white (13)
   m_TagString: Untagged
@@ -2319,7 +2359,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540104909154
+--- !u!65 &701357335
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2327,27 +2367,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540104909183}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540104909153
-Rigidbody:
+--- !u!114 &701357334
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540104909183}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540194669733
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,8 +2401,8 @@ GameObject:
   - component: {fileID: 3758029540194669734}
   - component: {fileID: 3758029540194669738}
   - component: {fileID: 3758029540194669737}
-  - component: {fileID: 3758029540194669736}
-  - component: {fileID: 3758029540194669735}
+  - component: {fileID: 2072239559}
+  - component: {fileID: 2072239558}
   m_Layer: 0
   m_Name: Checker - black (4)
   m_TagString: Untagged
@@ -2427,7 +2469,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540194669736
+--- !u!65 &2072239559
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2435,27 +2477,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540194669733}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540194669735
-Rigidbody:
+--- !u!114 &2072239558
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540194669733}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540239983006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,8 +2511,8 @@ GameObject:
   - component: {fileID: 3758029540239983007}
   - component: {fileID: 3758029540239982979}
   - component: {fileID: 3758029540239982978}
-  - component: {fileID: 3758029540239982977}
-  - component: {fileID: 3758029540239982976}
+  - component: {fileID: 514161333}
+  - component: {fileID: 514161332}
   m_Layer: 0
   m_Name: Checker - black (17)
   m_TagString: Untagged
@@ -2535,7 +2579,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540239982977
+--- !u!65 &514161333
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2543,27 +2587,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540239983006}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540239982976
-Rigidbody:
+--- !u!114 &514161332
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540239983006}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540295253049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,8 +2621,8 @@ GameObject:
   - component: {fileID: 3758029540295253050}
   - component: {fileID: 3758029540295253054}
   - component: {fileID: 3758029540295253053}
-  - component: {fileID: 3758029540295253052}
-  - component: {fileID: 3758029540295253051}
+  - component: {fileID: 1835699481}
+  - component: {fileID: 1835699480}
   m_Layer: 0
   m_Name: Checker - white (3)
   m_TagString: Untagged
@@ -2643,7 +2689,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540295253052
+--- !u!65 &1835699481
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2651,27 +2697,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540295253049}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540295253051
-Rigidbody:
+--- !u!114 &1835699480
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540295253049}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540346943970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,8 +2731,8 @@ GameObject:
   - component: {fileID: 3758029540346943971}
   - component: {fileID: 3758029540346943975}
   - component: {fileID: 3758029540346943974}
-  - component: {fileID: 3758029540346943973}
-  - component: {fileID: 3758029540346943972}
+  - component: {fileID: 555809350}
+  - component: {fileID: 555809349}
   m_Layer: 0
   m_Name: Checker - white (4)
   m_TagString: Untagged
@@ -2751,7 +2799,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540346943973
+--- !u!65 &555809350
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2759,27 +2807,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540346943970}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540346943972
-Rigidbody:
+--- !u!114 &555809349
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540346943970}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540394704548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,8 +2841,8 @@ GameObject:
   - component: {fileID: 3758029540394704549}
   - component: {fileID: 3758029540394704553}
   - component: {fileID: 3758029540394704552}
-  - component: {fileID: 3758029540394704551}
-  - component: {fileID: 3758029540394704550}
+  - component: {fileID: 579071512}
+  - component: {fileID: 579071511}
   m_Layer: 0
   m_Name: Checker - white (5)
   m_TagString: Untagged
@@ -2859,7 +2909,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540394704551
+--- !u!65 &579071512
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2867,27 +2917,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540394704548}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540394704550
-Rigidbody:
+--- !u!114 &579071511
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540394704548}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540436605068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,8 +2951,8 @@ GameObject:
   - component: {fileID: 3758029540436605069}
   - component: {fileID: 3758029540436605105}
   - component: {fileID: 3758029540436605104}
-  - component: {fileID: 3758029540436605071}
-  - component: {fileID: 3758029540436605070}
+  - component: {fileID: 965013093}
+  - component: {fileID: 965013092}
   m_Layer: 0
   m_Name: Checker - white (6)
   m_TagString: Untagged
@@ -2967,7 +3019,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540436605071
+--- !u!65 &965013093
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2975,27 +3027,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540436605068}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540436605070
-Rigidbody:
+--- !u!114 &965013092
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540436605068}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540444692070
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,8 +3061,8 @@ GameObject:
   - component: {fileID: 3758029540444692071}
   - component: {fileID: 3758029540444692075}
   - component: {fileID: 3758029540444692074}
-  - component: {fileID: 3758029540444692073}
-  - component: {fileID: 3758029540444692072}
+  - component: {fileID: 28118705}
+  - component: {fileID: 28118704}
   m_Layer: 0
   m_Name: Checker - black (2)
   m_TagString: Untagged
@@ -3075,7 +3129,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540444692073
+--- !u!65 &28118705
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3083,27 +3137,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540444692070}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540444692072
-Rigidbody:
+--- !u!114 &28118704
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540444692070}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540566493767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,8 +3171,8 @@ GameObject:
   - component: {fileID: 3758029540566493768}
   - component: {fileID: 3758029540566493772}
   - component: {fileID: 3758029540566493771}
-  - component: {fileID: 3758029540566493770}
-  - component: {fileID: 3758029540566493769}
+  - component: {fileID: 489925486}
+  - component: {fileID: 489925485}
   m_Layer: 0
   m_Name: Checker - black (16)
   m_TagString: Untagged
@@ -3183,7 +3239,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540566493770
+--- !u!65 &489925486
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3191,27 +3247,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540566493767}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540566493769
-Rigidbody:
+--- !u!114 &489925485
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540566493767}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540622076766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,8 +3281,8 @@ GameObject:
   - component: {fileID: 3758029540622076767}
   - component: {fileID: 3758029540622076739}
   - component: {fileID: 3758029540622076738}
-  - component: {fileID: 3758029540622076737}
-  - component: {fileID: 3758029540622076736}
+  - component: {fileID: 822768417}
+  - component: {fileID: 822768416}
   m_Layer: 0
   m_Name: Checker - white
   m_TagString: Untagged
@@ -3291,7 +3349,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540622076737
+--- !u!65 &822768417
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3299,27 +3357,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540622076766}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540622076736
-Rigidbody:
+--- !u!114 &822768416
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540622076766}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540701386298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3331,8 +3391,8 @@ GameObject:
   - component: {fileID: 3758029540701386299}
   - component: {fileID: 3758029540701386303}
   - component: {fileID: 3758029540701386302}
-  - component: {fileID: 3758029540701386301}
-  - component: {fileID: 3758029540701386300}
+  - component: {fileID: 671533885}
+  - component: {fileID: 671533884}
   m_Layer: 0
   m_Name: Checker - white (21)
   m_TagString: Untagged
@@ -3399,7 +3459,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540701386301
+--- !u!65 &671533885
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3407,27 +3467,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540701386298}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540701386300
-Rigidbody:
+--- !u!114 &671533884
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540701386298}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540733389021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3439,8 +3501,8 @@ GameObject:
   - component: {fileID: 3758029540733389022}
   - component: {fileID: 3758029540733388994}
   - component: {fileID: 3758029540733388993}
-  - component: {fileID: 3758029540733388992}
-  - component: {fileID: 3758029540733389023}
+  - component: {fileID: 1857423785}
+  - component: {fileID: 1857423784}
   m_Layer: 0
   m_Name: Checker - white (24)
   m_TagString: Untagged
@@ -3507,7 +3569,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540733388992
+--- !u!65 &1857423785
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3515,27 +3577,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540733389021}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540733389023
-Rigidbody:
+--- !u!114 &1857423784
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540733389021}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540743741085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,8 +3611,8 @@ GameObject:
   - component: {fileID: 3758029540743741086}
   - component: {fileID: 3758029540743741058}
   - component: {fileID: 3758029540743741057}
-  - component: {fileID: 3758029540743741056}
-  - component: {fileID: 3758029540743741087}
+  - component: {fileID: 2096976406}
+  - component: {fileID: 2096976405}
   m_Layer: 0
   m_Name: Checker - white (12)
   m_TagString: Untagged
@@ -3615,7 +3679,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540743741056
+--- !u!65 &2096976406
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3623,27 +3687,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540743741085}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540743741087
-Rigidbody:
+--- !u!114 &2096976405
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540743741085}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540749626288
 GameObject:
   m_ObjectHideFlags: 0
@@ -3655,8 +3721,8 @@ GameObject:
   - component: {fileID: 3758029540749626289}
   - component: {fileID: 3758029540749626293}
   - component: {fileID: 3758029540749626292}
-  - component: {fileID: 3758029540749626291}
-  - component: {fileID: 3758029540749626290}
+  - component: {fileID: 484577925}
+  - component: {fileID: 484577924}
   m_Layer: 0
   m_Name: Checker - black (15)
   m_TagString: Untagged
@@ -3723,7 +3789,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540749626291
+--- !u!65 &484577925
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3731,27 +3797,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540749626288}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540749626290
-Rigidbody:
+--- !u!114 &484577924
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540749626288}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540774126477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3763,8 +3831,8 @@ GameObject:
   - component: {fileID: 3758029540774126478}
   - component: {fileID: 3758029540774126514}
   - component: {fileID: 3758029540774126513}
-  - component: {fileID: 3758029540774126512}
-  - component: {fileID: 3758029540774126479}
+  - component: {fileID: 1218296961}
+  - component: {fileID: 1218296960}
   m_Layer: 0
   m_Name: Checker - white (2)
   m_TagString: Untagged
@@ -3831,7 +3899,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540774126512
+--- !u!65 &1218296961
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3839,27 +3907,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540774126477}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540774126479
-Rigidbody:
+--- !u!114 &1218296960
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540774126477}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540898580575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3871,8 +3941,8 @@ GameObject:
   - component: {fileID: 3758029540898580544}
   - component: {fileID: 3758029540898580548}
   - component: {fileID: 3758029540898580547}
-  - component: {fileID: 3758029540898580546}
-  - component: {fileID: 3758029540898580545}
+  - component: {fileID: 1110421285}
+  - component: {fileID: 1110421284}
   m_Layer: 0
   m_Name: Checker - white (9)
   m_TagString: Untagged
@@ -3939,7 +4009,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540898580546
+--- !u!65 &1110421285
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3947,27 +4017,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540898580575}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540898580545
-Rigidbody:
+--- !u!114 &1110421284
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540898580575}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540925609084
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,8 +4051,8 @@ GameObject:
   - component: {fileID: 3758029540925609085}
   - component: {fileID: 3758029540925609057}
   - component: {fileID: 3758029540925609056}
-  - component: {fileID: 3758029540925609087}
-  - component: {fileID: 3758029540925609086}
+  - component: {fileID: 614886137}
+  - component: {fileID: 614886136}
   m_Layer: 0
   m_Name: Checker - white (20)
   m_TagString: Untagged
@@ -4047,7 +4119,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029540925609087
+--- !u!65 &614886137
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4055,27 +4127,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540925609084}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029540925609086
-Rigidbody:
+--- !u!114 &614886136
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029540925609084}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541064894076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4087,8 +4161,8 @@ GameObject:
   - component: {fileID: 3758029541064894077}
   - component: {fileID: 3758029541064894049}
   - component: {fileID: 3758029541064894048}
-  - component: {fileID: 3758029541064894079}
-  - component: {fileID: 3758029541064894078}
+  - component: {fileID: 1075438860}
+  - component: {fileID: 1075438859}
   m_Layer: 0
   m_Name: Checker - black (3)
   m_TagString: Untagged
@@ -4155,7 +4229,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541064894079
+--- !u!65 &1075438860
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4163,27 +4237,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541064894076}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541064894078
-Rigidbody:
+--- !u!114 &1075438859
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541064894076}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541098018852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,8 +4271,8 @@ GameObject:
   - component: {fileID: 3758029541098018853}
   - component: {fileID: 3758029541098018857}
   - component: {fileID: 3758029541098018856}
-  - component: {fileID: 3758029541098018855}
-  - component: {fileID: 3758029541098018854}
+  - component: {fileID: 1469893675}
+  - component: {fileID: 1469893674}
   m_Layer: 0
   m_Name: Checker - white (8)
   m_TagString: Untagged
@@ -4263,7 +4339,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541098018855
+--- !u!65 &1469893675
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4271,27 +4347,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541098018852}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541098018854
-Rigidbody:
+--- !u!114 &1469893674
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541098018852}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541109194873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4303,8 +4381,8 @@ GameObject:
   - component: {fileID: 3758029541109194874}
   - component: {fileID: 3758029541109194878}
   - component: {fileID: 3758029541109194877}
-  - component: {fileID: 3758029541109194876}
-  - component: {fileID: 3758029541109194875}
+  - component: {fileID: 1286657991}
+  - component: {fileID: 1286657990}
   m_Layer: 0
   m_Name: Checker - black
   m_TagString: Untagged
@@ -4371,7 +4449,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541109194876
+--- !u!65 &1286657991
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4379,27 +4457,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541109194873}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541109194875
-Rigidbody:
+--- !u!114 &1286657990
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541109194873}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541142116499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,8 +4491,8 @@ GameObject:
   - component: {fileID: 3758029541142116500}
   - component: {fileID: 3758029541142116504}
   - component: {fileID: 3758029541142116503}
-  - component: {fileID: 3758029541142116502}
-  - component: {fileID: 3758029541142116501}
+  - component: {fileID: 241751659}
+  - component: {fileID: 241751658}
   m_Layer: 0
   m_Name: Checker - black (24)
   m_TagString: Untagged
@@ -4479,7 +4559,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541142116502
+--- !u!65 &241751659
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4487,27 +4567,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541142116499}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541142116501
-Rigidbody:
+--- !u!114 &241751658
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541142116499}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541148823084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4519,8 +4601,8 @@ GameObject:
   - component: {fileID: 3758029541148823085}
   - component: {fileID: 3758029541148823121}
   - component: {fileID: 3758029541148823120}
-  - component: {fileID: 3758029541148823087}
-  - component: {fileID: 3758029541148823086}
+  - component: {fileID: 1521405539}
+  - component: {fileID: 1521405538}
   m_Layer: 0
   m_Name: Checker - black (19)
   m_TagString: Untagged
@@ -4587,7 +4669,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541148823087
+--- !u!65 &1521405539
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4595,27 +4677,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541148823084}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541148823086
-Rigidbody:
+--- !u!114 &1521405538
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541148823084}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541156858540
 GameObject:
   m_ObjectHideFlags: 0
@@ -4627,8 +4711,8 @@ GameObject:
   - component: {fileID: 3758029541156858541}
   - component: {fileID: 3758029541156858577}
   - component: {fileID: 3758029541156858576}
-  - component: {fileID: 3758029541156858543}
-  - component: {fileID: 3758029541156858542}
+  - component: {fileID: 1547851002}
+  - component: {fileID: 1547851001}
   m_Layer: 0
   m_Name: Checker - black (8)
   m_TagString: Untagged
@@ -4695,7 +4779,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541156858543
+--- !u!65 &1547851002
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4703,27 +4787,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541156858540}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541156858542
-Rigidbody:
+--- !u!114 &1547851001
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541156858540}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541195213712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4735,8 +4821,8 @@ GameObject:
   - component: {fileID: 3758029541195213713}
   - component: {fileID: 3758029541195213717}
   - component: {fileID: 3758029541195213716}
-  - component: {fileID: 3758029541195213715}
-  - component: {fileID: 3758029541195213714}
+  - component: {fileID: 357791194}
+  - component: {fileID: 357791193}
   m_Layer: 0
   m_Name: Checker - black (23)
   m_TagString: Untagged
@@ -4803,7 +4889,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541195213715
+--- !u!65 &357791194
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4811,27 +4897,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541195213712}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541195213714
-Rigidbody:
+--- !u!114 &357791193
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541195213712}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541285243466
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,8 +4931,8 @@ GameObject:
   - component: {fileID: 3758029541285243467}
   - component: {fileID: 3758029541285243471}
   - component: {fileID: 3758029541285243470}
-  - component: {fileID: 3758029541285243469}
-  - component: {fileID: 3758029541285243468}
+  - component: {fileID: 38049465}
+  - component: {fileID: 38049464}
   m_Layer: 0
   m_Name: Checker - white (16)
   m_TagString: Untagged
@@ -4911,7 +4999,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541285243469
+--- !u!65 &38049465
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4919,27 +5007,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541285243466}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541285243468
-Rigidbody:
+--- !u!114 &38049464
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541285243466}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541351101285
 GameObject:
   m_ObjectHideFlags: 0
@@ -4951,8 +5041,8 @@ GameObject:
   - component: {fileID: 3758029541351101286}
   - component: {fileID: 3758029541351101290}
   - component: {fileID: 3758029541351101289}
-  - component: {fileID: 3758029541351101288}
-  - component: {fileID: 3758029541351101287}
+  - component: {fileID: 1643337733}
+  - component: {fileID: 1643337732}
   m_Layer: 0
   m_Name: Checker - black (14)
   m_TagString: Untagged
@@ -5019,7 +5109,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541351101288
+--- !u!65 &1643337733
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5027,27 +5117,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541351101285}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541351101287
-Rigidbody:
+--- !u!114 &1643337732
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541351101285}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541390960165
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,8 +5151,8 @@ GameObject:
   - component: {fileID: 3758029541390960166}
   - component: {fileID: 3758029541390960170}
   - component: {fileID: 3758029541390960169}
-  - component: {fileID: 3758029541390960168}
-  - component: {fileID: 3758029541390960167}
+  - component: {fileID: 418173766}
+  - component: {fileID: 418173765}
   m_Layer: 0
   m_Name: Checker - black (13)
   m_TagString: Untagged
@@ -5127,7 +5219,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541390960168
+--- !u!65 &418173766
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5135,27 +5227,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541390960165}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541390960167
-Rigidbody:
+--- !u!114 &418173765
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541390960165}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541393179190
 GameObject:
   m_ObjectHideFlags: 0
@@ -5167,8 +5261,8 @@ GameObject:
   - component: {fileID: 3758029541393179191}
   - component: {fileID: 3758029541393179195}
   - component: {fileID: 3758029541393179194}
-  - component: {fileID: 3758029541393179193}
-  - component: {fileID: 3758029541393179192}
+  - component: {fileID: 647996720}
+  - component: {fileID: 647996719}
   m_Layer: 0
   m_Name: Checker - white (15)
   m_TagString: Untagged
@@ -5235,7 +5329,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541393179193
+--- !u!65 &647996720
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5243,27 +5337,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541393179190}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541393179192
-Rigidbody:
+--- !u!114 &647996719
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541393179190}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541397022848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5275,8 +5371,8 @@ GameObject:
   - component: {fileID: 3758029541397022849}
   - component: {fileID: 3758029541397022853}
   - component: {fileID: 3758029541397022852}
-  - component: {fileID: 3758029541397022851}
-  - component: {fileID: 3758029541397022850}
+  - component: {fileID: 14658064}
+  - component: {fileID: 14658063}
   m_Layer: 0
   m_Name: Checker - black (7)
   m_TagString: Untagged
@@ -5343,7 +5439,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541397022851
+--- !u!65 &14658064
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5351,27 +5447,29 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541397022848}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541397022850
-Rigidbody:
+--- !u!114 &14658063
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541397022848}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541398973436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5383,8 +5481,8 @@ GameObject:
   - component: {fileID: 3758029541398973437}
   - component: {fileID: 3758029541398973409}
   - component: {fileID: 3758029541398973408}
-  - component: {fileID: 3758029541398973439}
-  - component: {fileID: 3758029541398973438}
+  - component: {fileID: 620037213}
+  - component: {fileID: 620037212}
   m_Layer: 0
   m_Name: Checker - black (9)
   m_TagString: Untagged
@@ -5451,7 +5549,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3758029541398973439
+--- !u!65 &620037213
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5459,24 +5557,26 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541398973436}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3758029541398973438
-Rigidbody:
+--- !u!114 &620037212
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3758029541398973436}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  seconds: 0
+  timerText: {fileID: 0}
+  minutes: 0
+  finalTimerText: {fileID: 0}
+  lifeSystem: {fileID: 0}

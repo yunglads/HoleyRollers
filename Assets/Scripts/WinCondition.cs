@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Vehicles.Ball;
 
 public class WinCondition : MonoBehaviour
 {
     public Text winText;
     public float seconds;
-    //public float timer;
     public Text timerText;
     public int minutes;
-    //public GameObject ball;
-
+    private bool raceOver;
     public Text finalTimerText;
 
     public LifeSystem lifeSystem;
+    public StartTimer startTimer;
+    public BallUserControl ball;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +24,18 @@ public class WinCondition : MonoBehaviour
         minutes = 0;
 
         winText.enabled = false;
-        timerText.enabled = true;
+        timerText.enabled = false;
         finalTimerText.enabled = false;
+
+        if (startTimer == null && GetComponent<StartTimer>() != null)
+        {
+            startTimer = GetComponent<StartTimer>();
+        }
+
+        if (ball == null && GetComponent<BallUserControl>() != null)
+        {
+            ball = GetComponent<BallUserControl>();
+        }
 
         //lifeSystem = GetComponent<LifeSystem>();
     }
@@ -32,16 +43,22 @@ public class WinCondition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        seconds += Time.fixedDeltaTime;
-
-        //timer = timerText;
-
-        timerText.text = "Time: " + minutes.ToString("00:") + seconds.ToString("00.00");
-
-        if (seconds >= 59.5f)
+        if (startTimer.timer <= -.5f && !raceOver)
         {
-            minutes++;
-            seconds = 0f;
+            seconds += Time.fixedDeltaTime;
+            timerText.enabled = true;
+            timerText.text = "Time: " + minutes.ToString("00:") + seconds.ToString("00.00");
+
+            if (seconds >= 59.5f)
+            {
+                minutes++;
+                seconds = 0f;
+            }
+        }
+        else if (raceOver)
+        {
+            timerText.enabled = false;
+            ball.enabled = false;
         }
     }
 
@@ -51,6 +68,8 @@ public class WinCondition : MonoBehaviour
         {
             winText.enabled = true;
             timerText.enabled = false;
+            ball.enabled = false;
+            raceOver = true;
             finalTimerText.enabled = true;
             finalTimerText.text = "Final Time: " + minutes.ToString("00:") + seconds.ToString("00.00");
         }
