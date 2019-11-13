@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d912505f029d1b244b6f6961e65ed0dd
   - enabled: 1
+    path: Assets/Scenes/Track Selection.unity
+    guid: 327ce752f74408544baaeff1b7593ab2
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 659c79294a9d6844da07d8824912b62c
   m_configObjects: {}

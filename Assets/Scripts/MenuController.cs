@@ -8,14 +8,20 @@ public class MenuController : MonoBehaviour
 {
     public Button start;
     public Button exit;
+    public Button trackSel;
+    public Button mainMenu;
 
     // Start is called before the first frame update
     void Start()
     {
         Button startBtn = start.GetComponent<Button>();
         Button exitBtn = exit.GetComponent<Button>();
+        Button trackSelBtn = trackSel.GetComponent<Button>();
+        Button mainMenuBtn = mainMenu.GetComponent<Button>();
 
         start.onClick.AddListener(StartGame);
+        mainMenu.onClick.AddListener(MainMenu);
+        trackSel.onClick.AddListener(TrackSelect);
         exit.onClick.AddListener(QuitGame);
     }
 
@@ -28,6 +34,17 @@ public class MenuController : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene("Game");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void TrackSelect()
+    {
+        SceneManager.LoadScene("Track Selection");
+        Debug.Log("Loading Scene");
     }
 
     public void QuitGame()

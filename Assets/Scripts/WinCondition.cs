@@ -12,6 +12,9 @@ public class WinCondition : MonoBehaviour
     public int minutes;
     private bool raceOver;
     public Text finalTimerText;
+    public Button mainMenu;
+    public Button trackSel;
+    public Button quit;
 
     public LifeSystem lifeSystem;
     public StartTimer startTimer;
@@ -26,6 +29,12 @@ public class WinCondition : MonoBehaviour
         winText.enabled = false;
         timerText.enabled = false;
         finalTimerText.enabled = false;
+        //mainMenu.enabled = false;
+        //trackSel.enabled = false;
+        //quit.enabled = false;
+        mainMenu.gameObject.SetActive(false);
+        trackSel.gameObject.SetActive(false);
+        quit.gameObject.SetActive(false);
 
         if (startTimer == null && GetComponent<StartTimer>() != null)
         {
@@ -59,6 +68,12 @@ public class WinCondition : MonoBehaviour
         {
             timerText.enabled = false;
             ball.enabled = false;
+            //mainMenu.enabled = true;
+            //trackSel.enabled = true;
+            //quit.enabled = true;
+            mainMenu.gameObject.SetActive(true);
+            trackSel.gameObject.SetActive(true);
+            quit.gameObject.SetActive(true);
         }
     }
 
