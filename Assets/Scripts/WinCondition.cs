@@ -6,11 +6,13 @@ using UnityStandardAssets.Vehicles.Ball;
 
 public class WinCondition : MonoBehaviour
 {
+    public static WinCondition winCondition;
+
     public Text winText;
     public float seconds;
     public Text timerText;
     public int minutes;
-    private bool raceOver;
+    public bool raceOver;
     public Text finalTimerText;
     public Button mainMenu;
     public Button trackSel;
@@ -19,6 +21,11 @@ public class WinCondition : MonoBehaviour
     public LifeSystem lifeSystem;
     public StartTimer startTimer;
     public BallUserControl ball;
+
+    private void Awake()
+    {
+        //DontDestroyOnLoad(gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -54,7 +61,7 @@ public class WinCondition : MonoBehaviour
     {
         if (startTimer.timer <= -.5f && !raceOver)
         {
-            seconds += Time.fixedDeltaTime;
+            seconds += Time.fixedDeltaTime % 60;
             timerText.enabled = true;
             timerText.text = "Time: " + minutes.ToString("00:") + seconds.ToString("00.00");
 

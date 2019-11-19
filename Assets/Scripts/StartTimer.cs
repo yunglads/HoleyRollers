@@ -6,7 +6,9 @@ using UnityStandardAssets.Vehicles.Ball;
 
 public class StartTimer : MonoBehaviour
 {
-    public Text startTimer;
+    public static StartTimer countdown;
+
+    public Text startTimerText;
     public Text go;
     public float timer;
 
@@ -28,17 +30,17 @@ public class StartTimer : MonoBehaviour
     {
         timer -= Time.fixedDeltaTime % 60;
 
-        startTimer.text = timer.ToString("0");
+        startTimerText.text = timer.ToString("0");
 
         if (timer > 0f)
         {
-            startTimer.enabled = true;
+            startTimerText.enabled = true;
             ball.enabled = false;
             go.enabled = false;
         }
         else if (timer <= -0.5f)
         {
-            startTimer.enabled = false;
+            startTimerText.enabled = false;
             ball.enabled = true;
             go.enabled = true;
         }
@@ -48,9 +50,9 @@ public class StartTimer : MonoBehaviour
             go.enabled = false;
         }
 
-        if (timer <= -3f)
+        /*if (timer <= -3f)
         {
             Destroy(gameObject);
-        }
+        }*/
     }
 }

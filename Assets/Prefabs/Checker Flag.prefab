@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3758029539298102257}
   - component: {fileID: 3758029539298102256}
   - component: {fileID: 1717023297}
-  - component: {fileID: 1717023296}
   m_Layer: 0
   m_Name: Checker - white (22)
   m_TagString: Untagged
@@ -92,24 +91,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1717023296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539298102220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539335840326
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +103,6 @@ GameObject:
   - component: {fileID: 3758029539335840331}
   - component: {fileID: 3758029539335840330}
   - component: {fileID: 2145520876}
-  - component: {fileID: 2145520875}
   m_Layer: 0
   m_Name: Checker - white (7)
   m_TagString: Untagged
@@ -202,24 +182,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2145520875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539335840326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539345154054
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +194,6 @@ GameObject:
   - component: {fileID: 3758029539345154059}
   - component: {fileID: 3758029539345154058}
   - component: {fileID: 571579183}
-  - component: {fileID: 571579182}
   m_Layer: 0
   m_Name: Checker - black (10)
   m_TagString: Untagged
@@ -312,24 +273,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &571579182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539345154054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539349977282
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +285,6 @@ GameObject:
   - component: {fileID: 3758029539349977287}
   - component: {fileID: 3758029539349977286}
   - component: {fileID: 808703349}
-  - component: {fileID: 808703348}
   m_Layer: 0
   m_Name: Checker - black (1)
   m_TagString: Untagged
@@ -422,24 +364,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &808703348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539349977282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539357685962
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +376,6 @@ GameObject:
   - component: {fileID: 3758029539357685967}
   - component: {fileID: 3758029539357685966}
   - component: {fileID: 1488044197}
-  - component: {fileID: 1488044196}
   m_Layer: 0
   m_Name: Checker - black (11)
   m_TagString: Untagged
@@ -532,24 +455,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1488044196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539357685962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539408282140
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +467,6 @@ GameObject:
   - component: {fileID: 3758029539408282113}
   - component: {fileID: 3758029539408282112}
   - component: {fileID: 903030078}
-  - component: {fileID: 903030077}
   m_Layer: 0
   m_Name: Checker - white (18)
   m_TagString: Untagged
@@ -642,24 +546,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &903030077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539408282140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539411378188
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +558,6 @@ GameObject:
   - component: {fileID: 3758029539411378225}
   - component: {fileID: 3758029539411378224}
   - component: {fileID: 217992320}
-  - component: {fileID: 217992319}
   m_Layer: 0
   m_Name: Checker - white (11)
   m_TagString: Untagged
@@ -752,24 +637,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &217992319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539411378188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539417127673
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +649,6 @@ GameObject:
   - component: {fileID: 3758029539417127678}
   - component: {fileID: 3758029539417127677}
   - component: {fileID: 1182646032}
-  - component: {fileID: 1182646031}
   m_Layer: 0
   m_Name: Checker - white (23)
   m_TagString: Untagged
@@ -862,24 +728,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1182646031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539417127673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539521128981
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +740,6 @@ GameObject:
   - component: {fileID: 3758029539521128986}
   - component: {fileID: 3758029539521128985}
   - component: {fileID: 688532575}
-  - component: {fileID: 688532574}
   m_Layer: 0
   m_Name: Checker - white (1)
   m_TagString: Untagged
@@ -972,24 +819,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &688532574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539521128981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539531055774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +831,6 @@ GameObject:
   - component: {fileID: 3758029539531055747}
   - component: {fileID: 3758029539531055746}
   - component: {fileID: 1829188516}
-  - component: {fileID: 1829188515}
   m_Layer: 0
   m_Name: Checker - black (12)
   m_TagString: Untagged
@@ -1082,24 +910,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1829188515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539531055774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539633263725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,7 +922,6 @@ GameObject:
   - component: {fileID: 3758029539633263762}
   - component: {fileID: 3758029539633263761}
   - component: {fileID: 1845864966}
-  - component: {fileID: 1845864965}
   m_Layer: 0
   m_Name: Checker - white (10)
   m_TagString: Untagged
@@ -1192,24 +1001,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1845864965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539633263725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539656108447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,7 +1013,6 @@ GameObject:
   - component: {fileID: 3758029539656108420}
   - component: {fileID: 3758029539656108419}
   - component: {fileID: 1298185450}
-  - component: {fileID: 1298185449}
   m_Layer: 0
   m_Name: Checker - white (19)
   m_TagString: Untagged
@@ -1302,24 +1092,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1298185449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539656108447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539670768040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,7 +1104,6 @@ GameObject:
   - component: {fileID: 3758029539670768045}
   - component: {fileID: 3758029539670768044}
   - component: {fileID: 1750668780}
-  - component: {fileID: 1750668779}
   m_Layer: 0
   m_Name: Checker - black (6)
   m_TagString: Untagged
@@ -1412,24 +1183,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1750668779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539670768040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539716344116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1195,6 @@ GameObject:
   - component: {fileID: 3758029539716344121}
   - component: {fileID: 3758029539716344120}
   - component: {fileID: 792513926}
-  - component: {fileID: 792513925}
   m_Layer: 0
   m_Name: Checker - white (17)
   m_TagString: Untagged
@@ -1522,24 +1274,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &792513925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539716344116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539717693203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,7 +1286,6 @@ GameObject:
   - component: {fileID: 3758029539717693208}
   - component: {fileID: 3758029539717693207}
   - component: {fileID: 1890212985}
-  - component: {fileID: 1890212984}
   m_Layer: 0
   m_Name: Checker - black (21)
   m_TagString: Untagged
@@ -1632,24 +1365,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1890212984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539717693203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029539804406085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,7 +1377,6 @@ GameObject:
   - component: {fileID: 3758029539804406090}
   - component: {fileID: 3758029539804406089}
   - component: {fileID: 1474490592}
-  - component: {fileID: 1474490591}
   m_Layer: 0
   m_Name: Checker - black (5)
   m_TagString: Untagged
@@ -1742,24 +1456,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1474490591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029539804406085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540011496655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1468,6 @@ GameObject:
   - component: {fileID: 3758029540011496692}
   - component: {fileID: 3758029540011496691}
   - component: {fileID: 303041749}
-  - component: {fileID: 303041748}
   m_Layer: 0
   m_Name: Checker - black (18)
   m_TagString: Untagged
@@ -1852,24 +1547,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &303041748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540011496655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540023914393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,7 +1559,6 @@ GameObject:
   - component: {fileID: 3758029540023914398}
   - component: {fileID: 3758029540023914397}
   - component: {fileID: 2021698086}
-  - component: {fileID: 2021698085}
   m_Layer: 0
   m_Name: Checker - white (14)
   m_TagString: Untagged
@@ -1962,24 +1638,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2021698085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540023914393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540037309105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +1650,6 @@ GameObject:
   - component: {fileID: 3758029540037309110}
   - component: {fileID: 3758029540037309109}
   - component: {fileID: 316424499}
-  - component: {fileID: 316424498}
   m_Layer: 0
   m_Name: Checker - black (20)
   m_TagString: Untagged
@@ -2072,24 +1729,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &316424498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540037309105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540077169543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,7 +1821,6 @@ GameObject:
   - component: {fileID: 3758029540100270561}
   - component: {fileID: 3758029540100270560}
   - component: {fileID: 395239596}
-  - component: {fileID: 395239595}
   m_Layer: 0
   m_Name: Checker - black (22)
   m_TagString: Untagged
@@ -2262,24 +1900,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &395239595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540100270588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540104909183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +1912,6 @@ GameObject:
   - component: {fileID: 3758029540104909156}
   - component: {fileID: 3758029540104909155}
   - component: {fileID: 701357335}
-  - component: {fileID: 701357334}
   m_Layer: 0
   m_Name: Checker - white (13)
   m_TagString: Untagged
@@ -2372,24 +1991,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &701357334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540104909183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540194669733
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,7 +2003,6 @@ GameObject:
   - component: {fileID: 3758029540194669738}
   - component: {fileID: 3758029540194669737}
   - component: {fileID: 2072239559}
-  - component: {fileID: 2072239558}
   m_Layer: 0
   m_Name: Checker - black (4)
   m_TagString: Untagged
@@ -2482,24 +2082,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2072239558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540194669733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540239983006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,7 +2094,6 @@ GameObject:
   - component: {fileID: 3758029540239982979}
   - component: {fileID: 3758029540239982978}
   - component: {fileID: 514161333}
-  - component: {fileID: 514161332}
   m_Layer: 0
   m_Name: Checker - black (17)
   m_TagString: Untagged
@@ -2592,24 +2173,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &514161332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540239983006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540295253049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,7 +2185,6 @@ GameObject:
   - component: {fileID: 3758029540295253054}
   - component: {fileID: 3758029540295253053}
   - component: {fileID: 1835699481}
-  - component: {fileID: 1835699480}
   m_Layer: 0
   m_Name: Checker - white (3)
   m_TagString: Untagged
@@ -2702,24 +2264,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1835699480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540295253049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540346943970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2732,7 +2276,6 @@ GameObject:
   - component: {fileID: 3758029540346943975}
   - component: {fileID: 3758029540346943974}
   - component: {fileID: 555809350}
-  - component: {fileID: 555809349}
   m_Layer: 0
   m_Name: Checker - white (4)
   m_TagString: Untagged
@@ -2812,24 +2355,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &555809349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540346943970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540394704548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2842,7 +2367,6 @@ GameObject:
   - component: {fileID: 3758029540394704553}
   - component: {fileID: 3758029540394704552}
   - component: {fileID: 579071512}
-  - component: {fileID: 579071511}
   m_Layer: 0
   m_Name: Checker - white (5)
   m_TagString: Untagged
@@ -2922,24 +2446,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &579071511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540394704548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540436605068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2952,7 +2458,6 @@ GameObject:
   - component: {fileID: 3758029540436605105}
   - component: {fileID: 3758029540436605104}
   - component: {fileID: 965013093}
-  - component: {fileID: 965013092}
   m_Layer: 0
   m_Name: Checker - white (6)
   m_TagString: Untagged
@@ -3032,24 +2537,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &965013092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540436605068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540444692070
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,7 +2549,6 @@ GameObject:
   - component: {fileID: 3758029540444692075}
   - component: {fileID: 3758029540444692074}
   - component: {fileID: 28118705}
-  - component: {fileID: 28118704}
   m_Layer: 0
   m_Name: Checker - black (2)
   m_TagString: Untagged
@@ -3142,24 +2628,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &28118704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540444692070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540566493767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +2640,6 @@ GameObject:
   - component: {fileID: 3758029540566493772}
   - component: {fileID: 3758029540566493771}
   - component: {fileID: 489925486}
-  - component: {fileID: 489925485}
   m_Layer: 0
   m_Name: Checker - black (16)
   m_TagString: Untagged
@@ -3252,24 +2719,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &489925485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540566493767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540622076766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,7 +2828,12 @@ MonoBehaviour:
   timerText: {fileID: 0}
   minutes: 0
   finalTimerText: {fileID: 0}
+  mainMenu: {fileID: 0}
+  trackSel: {fileID: 0}
+  quit: {fileID: 0}
   lifeSystem: {fileID: 0}
+  startTimer: {fileID: 0}
+  ball: {fileID: 0}
 --- !u!1 &3758029540701386298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3392,7 +2846,6 @@ GameObject:
   - component: {fileID: 3758029540701386303}
   - component: {fileID: 3758029540701386302}
   - component: {fileID: 671533885}
-  - component: {fileID: 671533884}
   m_Layer: 0
   m_Name: Checker - white (21)
   m_TagString: Untagged
@@ -3472,24 +2925,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &671533884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540701386298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540733389021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3502,7 +2937,6 @@ GameObject:
   - component: {fileID: 3758029540733388994}
   - component: {fileID: 3758029540733388993}
   - component: {fileID: 1857423785}
-  - component: {fileID: 1857423784}
   m_Layer: 0
   m_Name: Checker - white (24)
   m_TagString: Untagged
@@ -3582,24 +3016,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1857423784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540733389021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540743741085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,7 +3028,6 @@ GameObject:
   - component: {fileID: 3758029540743741058}
   - component: {fileID: 3758029540743741057}
   - component: {fileID: 2096976406}
-  - component: {fileID: 2096976405}
   m_Layer: 0
   m_Name: Checker - white (12)
   m_TagString: Untagged
@@ -3692,24 +3107,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2096976405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540743741085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540749626288
 GameObject:
   m_ObjectHideFlags: 0
@@ -3722,7 +3119,6 @@ GameObject:
   - component: {fileID: 3758029540749626293}
   - component: {fileID: 3758029540749626292}
   - component: {fileID: 484577925}
-  - component: {fileID: 484577924}
   m_Layer: 0
   m_Name: Checker - black (15)
   m_TagString: Untagged
@@ -3802,24 +3198,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &484577924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540749626288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540774126477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,7 +3210,6 @@ GameObject:
   - component: {fileID: 3758029540774126514}
   - component: {fileID: 3758029540774126513}
   - component: {fileID: 1218296961}
-  - component: {fileID: 1218296960}
   m_Layer: 0
   m_Name: Checker - white (2)
   m_TagString: Untagged
@@ -3912,24 +3289,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1218296960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540774126477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540898580575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,7 +3301,6 @@ GameObject:
   - component: {fileID: 3758029540898580548}
   - component: {fileID: 3758029540898580547}
   - component: {fileID: 1110421285}
-  - component: {fileID: 1110421284}
   m_Layer: 0
   m_Name: Checker - white (9)
   m_TagString: Untagged
@@ -4022,24 +3380,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1110421284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540898580575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029540925609084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4052,7 +3392,6 @@ GameObject:
   - component: {fileID: 3758029540925609057}
   - component: {fileID: 3758029540925609056}
   - component: {fileID: 614886137}
-  - component: {fileID: 614886136}
   m_Layer: 0
   m_Name: Checker - white (20)
   m_TagString: Untagged
@@ -4132,24 +3471,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &614886136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029540925609084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541064894076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4162,7 +3483,6 @@ GameObject:
   - component: {fileID: 3758029541064894049}
   - component: {fileID: 3758029541064894048}
   - component: {fileID: 1075438860}
-  - component: {fileID: 1075438859}
   m_Layer: 0
   m_Name: Checker - black (3)
   m_TagString: Untagged
@@ -4242,24 +3562,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1075438859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541064894076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541098018852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4272,7 +3574,6 @@ GameObject:
   - component: {fileID: 3758029541098018857}
   - component: {fileID: 3758029541098018856}
   - component: {fileID: 1469893675}
-  - component: {fileID: 1469893674}
   m_Layer: 0
   m_Name: Checker - white (8)
   m_TagString: Untagged
@@ -4352,24 +3653,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1469893674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541098018852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541109194873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4382,7 +3665,6 @@ GameObject:
   - component: {fileID: 3758029541109194878}
   - component: {fileID: 3758029541109194877}
   - component: {fileID: 1286657991}
-  - component: {fileID: 1286657990}
   m_Layer: 0
   m_Name: Checker - black
   m_TagString: Untagged
@@ -4462,24 +3744,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1286657990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541109194873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541142116499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4492,7 +3756,6 @@ GameObject:
   - component: {fileID: 3758029541142116504}
   - component: {fileID: 3758029541142116503}
   - component: {fileID: 241751659}
-  - component: {fileID: 241751658}
   m_Layer: 0
   m_Name: Checker - black (24)
   m_TagString: Untagged
@@ -4572,24 +3835,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &241751658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541142116499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541148823084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4602,7 +3847,6 @@ GameObject:
   - component: {fileID: 3758029541148823121}
   - component: {fileID: 3758029541148823120}
   - component: {fileID: 1521405539}
-  - component: {fileID: 1521405538}
   m_Layer: 0
   m_Name: Checker - black (19)
   m_TagString: Untagged
@@ -4682,24 +3926,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1521405538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541148823084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541156858540
 GameObject:
   m_ObjectHideFlags: 0
@@ -4712,7 +3938,6 @@ GameObject:
   - component: {fileID: 3758029541156858577}
   - component: {fileID: 3758029541156858576}
   - component: {fileID: 1547851002}
-  - component: {fileID: 1547851001}
   m_Layer: 0
   m_Name: Checker - black (8)
   m_TagString: Untagged
@@ -4792,24 +4017,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1547851001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541156858540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541195213712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,7 +4029,6 @@ GameObject:
   - component: {fileID: 3758029541195213717}
   - component: {fileID: 3758029541195213716}
   - component: {fileID: 357791194}
-  - component: {fileID: 357791193}
   m_Layer: 0
   m_Name: Checker - black (23)
   m_TagString: Untagged
@@ -4902,24 +4108,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &357791193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541195213712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541285243466
 GameObject:
   m_ObjectHideFlags: 0
@@ -4932,7 +4120,6 @@ GameObject:
   - component: {fileID: 3758029541285243471}
   - component: {fileID: 3758029541285243470}
   - component: {fileID: 38049465}
-  - component: {fileID: 38049464}
   m_Layer: 0
   m_Name: Checker - white (16)
   m_TagString: Untagged
@@ -5012,24 +4199,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &38049464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541285243466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541351101285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,7 +4211,6 @@ GameObject:
   - component: {fileID: 3758029541351101290}
   - component: {fileID: 3758029541351101289}
   - component: {fileID: 1643337733}
-  - component: {fileID: 1643337732}
   m_Layer: 0
   m_Name: Checker - black (14)
   m_TagString: Untagged
@@ -5122,24 +4290,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1643337732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541351101285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541390960165
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,7 +4302,6 @@ GameObject:
   - component: {fileID: 3758029541390960170}
   - component: {fileID: 3758029541390960169}
   - component: {fileID: 418173766}
-  - component: {fileID: 418173765}
   m_Layer: 0
   m_Name: Checker - black (13)
   m_TagString: Untagged
@@ -5232,24 +4381,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &418173765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541390960165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541393179190
 GameObject:
   m_ObjectHideFlags: 0
@@ -5262,7 +4393,6 @@ GameObject:
   - component: {fileID: 3758029541393179195}
   - component: {fileID: 3758029541393179194}
   - component: {fileID: 647996720}
-  - component: {fileID: 647996719}
   m_Layer: 0
   m_Name: Checker - white (15)
   m_TagString: Untagged
@@ -5342,24 +4472,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &647996719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541393179190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541397022848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5372,7 +4484,6 @@ GameObject:
   - component: {fileID: 3758029541397022853}
   - component: {fileID: 3758029541397022852}
   - component: {fileID: 14658064}
-  - component: {fileID: 14658063}
   m_Layer: 0
   m_Name: Checker - black (7)
   m_TagString: Untagged
@@ -5452,24 +4563,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &14658063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541397022848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}
 --- !u!1 &3758029541398973436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,7 +4575,6 @@ GameObject:
   - component: {fileID: 3758029541398973409}
   - component: {fileID: 3758029541398973408}
   - component: {fileID: 620037213}
-  - component: {fileID: 620037212}
   m_Layer: 0
   m_Name: Checker - black (9)
   m_TagString: Untagged
@@ -5562,21 +4654,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &620037212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758029541398973436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d588f6053fb2845b3a783f48bf0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winText: {fileID: 0}
-  seconds: 0
-  timerText: {fileID: 0}
-  minutes: 0
-  finalTimerText: {fileID: 0}
-  lifeSystem: {fileID: 0}

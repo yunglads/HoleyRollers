@@ -11,6 +11,8 @@ public class MenuController : MonoBehaviour
     public Button trackSel;
     public Button mainMenu;
 
+    //public GameObject starController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +46,6 @@ public class MenuController : MonoBehaviour
     public void TrackSelect()
     {
         SceneManager.LoadScene("Track Selection");
-        Debug.Log("Loading Scene");
     }
 
     public void QuitGame()
