@@ -15,6 +15,7 @@ public class WinCondition : MonoBehaviour
     public bool raceOver;
     public Text finalTimerText;
     public Button mainMenu;
+    public Button nextRace;
     public Button trackSel;
     public Button quit;
 
@@ -40,6 +41,7 @@ public class WinCondition : MonoBehaviour
         //trackSel.enabled = false;
         //quit.enabled = false;
         mainMenu.gameObject.SetActive(false);
+        nextRace.gameObject.SetActive(false);
         trackSel.gameObject.SetActive(false);
         quit.gameObject.SetActive(false);
 
@@ -79,6 +81,7 @@ public class WinCondition : MonoBehaviour
             //trackSel.enabled = true;
             //quit.enabled = true;
             mainMenu.gameObject.SetActive(true);
+            nextRace.gameObject.SetActive(true);
             trackSel.gameObject.SetActive(true);
             quit.gameObject.SetActive(true);
         }

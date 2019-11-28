@@ -5,47 +5,83 @@ using UnityEngine.UI;
 
 public class StarCounter : MonoBehaviour
 {
-    public Image grayStar1;
-    public Image grayStar2;
-    public Image grayStar3;
+    public Image t1grayStar1;
+    public Image t1grayStar2;
+    public Image t1grayStar3;
+    public Image t2grayStar1;
+    public Image t2grayStar2;
+    public Image t2grayStar3;
 
-    public Image yellowStar1;
-    public Image yellowStar2;
-    public Image yellowStar3;
+    public Image t1yellowStar1;
+    public Image t1yellowStar2;
+    public Image t1yellowStar3;
+    public Image t2yellowStar1;
+    public Image t2yellowStar2;
+    public Image t2yellowStar3;
 
     // Start is called before the first frame update
     void Start()
     {
-        grayStar1.enabled = true;
-        grayStar2.enabled = true;
-        grayStar3.enabled = true;
+        t1grayStar1.enabled = true;
+        t1grayStar2.enabled = true;
+        t1grayStar3.enabled = true;
+        t2grayStar1.enabled = true;
+        t2grayStar2.enabled = true;
+        t2grayStar3.enabled = true;
 
-        yellowStar1.enabled = false;
-        yellowStar2.enabled = false;
-        yellowStar3.enabled = false;
+        t1yellowStar1.enabled = false;
+        t1yellowStar2.enabled = false;
+        t1yellowStar3.enabled = false;
+        t2yellowStar1.enabled = false;
+        t2yellowStar2.enabled = false;
+        t2yellowStar3.enabled = false;
 
-        if (StarController.controller.stars == 1)
+        if (StarController.controller.track1Set == 1)
         {
-            grayStar1.enabled = false;
-            yellowStar1.enabled = true;
+            t1grayStar1.enabled = false;
+            t1yellowStar1.enabled = true;
         }
 
-        if (StarController.controller.stars == 2)
+        if (StarController.controller.track1Set == 2)
         {
-            grayStar1.enabled = false;
-            yellowStar1.enabled = true;
-            grayStar2.enabled = false;
-            yellowStar2.enabled = true;
+            t1grayStar1.enabled = false;
+            t1yellowStar1.enabled = true;
+            t1grayStar2.enabled = false;
+            t1yellowStar2.enabled = true;
         }
 
-        if (StarController.controller.stars == 3)
+        if (StarController.controller.track1Set == 3)
         {
-            grayStar1.enabled = false;
-            yellowStar1.enabled = true;
-            grayStar2.enabled = false;
-            yellowStar2.enabled = true;
-            grayStar3.enabled = false;
-            yellowStar3.enabled = true;
+            t1grayStar1.enabled = false;
+            t1yellowStar1.enabled = true;
+            t1grayStar2.enabled = false;
+            t1yellowStar2.enabled = true;
+            t1grayStar3.enabled = false;
+            t1yellowStar3.enabled = true;
+        }
+
+        if (StarController.controller.track2Set == 1)
+        {
+            t2grayStar1.enabled = false;
+            t2yellowStar1.enabled = true;
+        }
+
+        if (StarController.controller.track2Set == 2)
+        {
+            t2grayStar1.enabled = false;
+            t2yellowStar1.enabled = true;
+            t2grayStar2.enabled = false;
+            t2yellowStar2.enabled = true;
+        }
+
+        if (StarController.controller.track2Set == 3)
+        {
+            t2grayStar1.enabled = false;
+            t2yellowStar1.enabled = true;
+            t2grayStar2.enabled = false;
+            t2yellowStar2.enabled = true;
+            t2grayStar3.enabled = false;
+            t2yellowStar3.enabled = true;
         }
     }
 

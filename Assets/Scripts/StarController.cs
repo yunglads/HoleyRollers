@@ -11,7 +11,11 @@ public class StarController : MonoBehaviour
 
     public WinCondition winCondition;
 
-    public int stars;
+    public int track1Stars;
+    public int track1Set;
+    public int track2Stars;
+    public int track2Set;
+    public int totalStars;
     public Text starText;
     //public float time;
 
@@ -37,7 +41,8 @@ public class StarController : MonoBehaviour
             winCondition = GetComponent<WinCondition>();
         }
 
-        //stars = 0;
+        //track1Set = 0;
+        //track2Set = 0;
     }
 
     // Update is called once per frame
@@ -47,14 +52,16 @@ public class StarController : MonoBehaviour
         starText = GameObject.Find("Star Text").GetComponent<Text>();
         winCondition = GameObject.FindObjectOfType<WinCondition>();
 
-        if (stars == 0)
+        totalStars = track1Set + track2Set;
+
+        if (totalStars == 0)
         {
             starText.enabled = false;
         }
-        else if (stars >= 1)
+        else if (totalStars >= 1)
         {
             starText.enabled = true;
-            starText.text = "Stars: " + stars;
+            starText.text = "Stars: " + totalStars;
         }
 
         Scene currentScene = SceneManager.GetActiveScene();
@@ -64,17 +71,45 @@ public class StarController : MonoBehaviour
         {
             if (winCondition.seconds >= 32f)
             {
-                stars = 1;
+                track1Stars = 1;
             }
 
             else if (winCondition.seconds <= 32f && winCondition.seconds >= 27f)
             {
-                stars = 2;
+                track1Stars = 2;
             }
 
             else if (winCondition.seconds <= 27f)
             {
-                stars = 3;
+                track1Stars = 3;
+            }
+
+            if (winCondition.raceOver == true && track1Set < track1Stars)
+            {
+                track1Set = track1Stars;
+            }
+        }
+
+        if (sceneName == "Track 2")
+        {
+            if (winCondition.seconds >= 32f)
+            {
+                track2Stars = 1;
+            }
+
+            else if (winCondition.seconds <= 32f && winCondition.seconds >= 27f)
+            {
+                track2Stars = 2;
+            }
+
+            else if (winCondition.seconds <= 27f)
+            {
+                track2Stars = 3;
+            }
+
+            if (winCondition.raceOver == true && track2Set < track2Stars)
+            {
+                track2Set = track2Stars;
             }
         }
     }
@@ -85,7 +120,11 @@ public class StarController : MonoBehaviour
         FileStream file = File.Create(Application.persistentDataPath + "/playerData.dat");
 
         PlayerData data = new PlayerData();
-        data.stars = stars;
+        data.track1Stars = track1Stars;
+        data.track1Set = track1Set;
+        data.track2Stars = track2Stars;
+        data.track2Set = track2Set;
+        data.totalStars = totalStars;
 
         bf.Serialize(file, data);
         file.Close();
@@ -101,14 +140,30 @@ public class StarController : MonoBehaviour
             PlayerData data = (PlayerData)bf.Deserialize(file);
             file.Close();
 
-            stars = data.stars;
+            track1Stars = data.track1Stars;
+            track1Set = data.track1Set;
+            track2Stars = data.track2Stars;
+            track2Set = data.track2Set;
+            totalStars = data.totalStars;
             Debug.Log("Data Loaded");
         }
+    }
+
+    public void Delete()
+    {
+        track1Set = 0;
+        track1Stars = 0;
+        track2Set = 0;
+        track2Stars = 0;
     }
 }
 
 [Serializable]
 class PlayerData
 {
-    public int stars;
+    public int track1Stars;
+    public int track1Set;
+    public int track2Stars;
+    public int track2Set;
+    public int totalStars;
 }
