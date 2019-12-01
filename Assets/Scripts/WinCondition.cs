@@ -77,9 +77,6 @@ public class WinCondition : MonoBehaviour
         {
             timerText.enabled = false;
             ball.enabled = false;
-            //mainMenu.enabled = true;
-            //trackSel.enabled = true;
-            //quit.enabled = true;
             mainMenu.gameObject.SetActive(true);
             nextRace.gameObject.SetActive(true);
             trackSel.gameObject.SetActive(true);

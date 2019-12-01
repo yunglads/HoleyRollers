@@ -74,12 +74,12 @@ public class StarController : MonoBehaviour
                 track1Stars = 1;
             }
 
-            else if (winCondition.seconds <= 32f && winCondition.seconds >= 27f)
+            else if (winCondition.seconds <= 32f && winCondition.seconds >= 25f)
             {
                 track1Stars = 2;
             }
 
-            else if (winCondition.seconds <= 27f)
+            else if (winCondition.seconds <= 25f)
             {
                 track1Stars = 3;
             }
@@ -92,17 +92,17 @@ public class StarController : MonoBehaviour
 
         if (sceneName == "Track 2")
         {
-            if (winCondition.seconds >= 32f)
+            if (winCondition.seconds >= 35f)
             {
                 track2Stars = 1;
             }
 
-            else if (winCondition.seconds <= 32f && winCondition.seconds >= 27f)
+            else if (winCondition.seconds <= 35f && winCondition.seconds >= 28f)
             {
                 track2Stars = 2;
             }
 
-            else if (winCondition.seconds <= 27f)
+            else if (winCondition.seconds <= 28f)
             {
                 track2Stars = 3;
             }
